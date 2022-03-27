@@ -1,0 +1,20 @@
+create table Library_User(
+id int primary key,
+username varchar(50) not null,
+user_password varchar(50) not null
+);
+
+
+create table book(
+BookID int PRIMARY KEY,
+AuthorID int, 
+FOREIGN KEY(AuthorID) REFERENCES author(AuthorID),
+Name varchar(50) NOT Null,
+Genre varchar(50) NOT Null,
+Publisher varchar(50) NOT Null,
+Year int NOT null,
+Price int NOT null,
+NumberOfPages int NOT null,
+ShortDescription varchar(1000) NOT Null,
+Review int NOT null
+);

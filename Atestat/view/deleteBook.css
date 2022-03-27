@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgba(157, 163, 255, 0.884);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.container {
+    background-color: rgba(223, 223, 255, 0.466);
+    height: 200px;
+    width: 600px;
+    border-radius: 0px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.container p {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+button {
+    width: 100px;
+    color: black;
+    border-radius: 0px;
+    padding: 7px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no {
+    background: rgb(0, 0, 0);
+    align-self: center;
+    justify-self: center;
+    color:white;
+}
+
+.yes {
+    background: rgb(0, 0, 0);
+    color:white;
+}
